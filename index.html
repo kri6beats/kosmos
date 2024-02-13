@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7947716c6e.js" crossorigin="anonymous"></script>
+    <title>
+        facturacion-kosmos
+    </title>
+</head>
+
+<body>
+    <div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">
+   <center><img src="./assets/logo.jpg" alt="logo"></center> 
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-20">
+            
+                <h1 class="text-center p-5">Ingreso Kosmos</h1>
+             
+                 <div class="container-fluid row">
+                 <form class="col-4 p-3 m-auto" method="POST" action="./controller/login.php">
+                 <h3 class="text-center text-secundary">Ingreso de Usuario</h3>
+                     <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                         <input type="text" class="form-control" name="usuario" id="usuario">
+                     </div>
+                     <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                         <input type="password" class="form-control" name="password" id="password">
+                     </div>
+                     <center><button type="submit" class="btn btn-primary" name="Btningresar" value="ok">Ingresar</button></center>
+                     
+                 </form>
+             </div>
+
+     
+
+  
+ 
+               <div class="container-fluid row">
+                 <form class="col-4 p-3 m-auto" method="POST" action="./controller/loginhouse.php">
+                 <h3 class="text-center text-secundary">Ingreso de Usuario</h3>
+                     <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                         <input type="text" class="form-control" name="usuariohouse" id="usuariohouse">
+                     </div>
+                     <div class="mb-3">
+                         <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                         <input type="password" class="form-control" name="passwordhouse" id="passwordhouse">
+                     </div>
+                     <center><button type="submit" class="btn btn-primary" name="btnLoginHouse" value="ok">Ingresar</button></center>
+                     
+                 </form>
+             </div>
+
+        </div>
+    </div>
+  </div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
